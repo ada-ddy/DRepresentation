@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a5010102581d602e62b3ea4d6ce1b502f42ac0cd42c10cc80dd0546e9b93ab9468cf7e032720062158205179c0968c88d23d57d16d47fbae4f8bd22b688952217b532d801447764fae46"
+        },
+        "signature": {
+          "@value": "84584aa3012704581d602e62b3ea4d6ce1b502f42ac0cd42c10cc80dd0546e9b93ab9468cf7e6761646472657373581d602e62b3ea4d6ce1b502f42ac0cd42c10cc80dd0546e9b93ab9468cf7ea166686173686564f4584456657269667920445265702064726570313965337438366a64646e736d327168353974717636736b70706e79716d357a35643664653832753564723868757037707771305840d80df3dca3bbc1c7d74fac7a2566acb50fb7db22e4f403b83cb9ffd00a0f515eac11972a2e0695263ad876e58da509d1c7c39c5c660cb7ac404d791ea4a07304"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": ""
+    },
+    "email": {
+      "@value": ""
+    },
+    "givenName": {
+      "@value": "ada_ddy"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://pbs.twimg.com/profile_images/1848531616684982272/wFVXCHCY_400x400.jpg",
+      "sha256": "500785f7017a210bfeae30475222b6b8c4b179ba33eda28e157ff5e58bed34af"
+    },
+    "motivations": {
+      "@value": "The large power that big corporations and governments withhold can have both positive and negative influences on your life. And the negative influences can always recorded as taking power and freedoms away from individuals. The stripping of peoples freedoms is what motivates me.\n\nCut out the middle man, restore trust through transparency, and push power to the people."
+    },
+    "objectives": {
+      "@value": "Transparency\nGrowth and Adoption\nEfficiency "
+    },
+    "paymentAddress": {
+      "@value": "addr1qym2rmzpdhnzugww7gy9gqdfusgccayey0eqd9cswqsmx5zeqjx7k0ulmmuc2gemay66ye9542rvydpang2tnxpeussqhrf7vg"
+    },
+    "qualifications": {
+      "@value": "I am an engineer, a family man, business owner, a dad, and an optimist. Fair, level headed, and hard working. I hope that I can represent the portions of Cardano who believe in high integrity, commitment, and truth. There are pros and cons with every decision and I plan to make the ones that align with the principles that I stand by. I have studied economics, monetary policies, social systems, mathematics, and history, all of which will be key to keeping Cardano decentralized and secure, yet scalable and interoperable."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Daily thoughts"
+        },
+        "uri": {
+          "@value": "https://x.com/ada_ddy"
+        }
+      }
+    ]
+  }
+}
