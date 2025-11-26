@@ -58,17 +58,18 @@
       }
     }
   },
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "givenName": "ada_ddy",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://pbs.twimg.com/profile_images/1848531616684982272/wFVXCHCY_400x400.jpg",
-      "sha256": "500785f7017a210bfeae30475222b6b8c4b179ba33eda28e157ff5e58bed34af"
+      "contentUrl": "",
+      "sha256": "735c89e05b587497c92fa6ebac3eef7731938fab60576b8b6e6fe6871f5afb5b"
     },
-    "motivations": "The large power that big corporations and governments withhold can have both positive and negative influences on your life. And the negative influences can always recorded as taking power and freedoms away from individuals. The stripping of peoples freedoms is what motivates me.\n\nCut out the middle man, restore trust through transparency, and push power to the people.",
-    "objectives": "Transparency\nGrowth and Adoption\nEfficiency ",
-    "qualifications": "I am an engineer, a family man, business owner, a dad, and an optimist. Fair, level headed, and hard working. I hope that I can represent the portions of Cardano who believe in high integrity, commitment, and truth. There are pros and cons with every decision and I plan to make the ones that align with the principles that I stand by. I have studied economics, monetary policies, social systems, mathematics, and history, all of which will be key to keeping Cardano decentralized and secure, yet scalable and interoperable.",
+    "motivations": "The immense power concentrated in big corporations and governments profoundly shapes our lives—for better and for worse. Yet nearly every downside traces back to the same root: the erosion of individual agency and freedom.\n\nRestoring and securing our freedoms is what motivates me. Cut out the middlemen. Rebuild trust with transparency. Return real power to the people.\n\n",
+    "objectives": "Transparency, Growth, Adoption, and Efficiency ",
+    "qualifications": "I’m an engineer, a father, a family man, a business owner, and an optimist—fair-minded, level-headed, and driven by hard work. My hope is to represent the many in the Cardano community who value uncompromising integrity, deep commitment, and unflinching truth. Every decision has trade-offs, and I intend to make the ones that stay true to the principles I live by. With a background in engineering, economics, monetary policy, social systems, mathematics, and history, I’m committed to approaching governance logical and effectively. I am committed to keeping Cardano decentralized and secure while ensuring it remains scalable and interoperable—for the long haul.",
     "references": [
       {
         "@type": "Link",
